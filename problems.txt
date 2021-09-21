@@ -1,0 +1,25 @@
+*Find the 2nd largest and 2nd smallest number in two arrays of numbers combined
+I.e. - [10,5,7,2,4,1,24] & [8,23,29,25,40,0,24] -> 2nd Largest : 29 , 2nd Smallest: 1 ----------**
+
+
+
+
+
+
+
+*Program to find the most repeated word in a string and the count of the word
+“Almost nothing was more annoying than having our wasted time wasted on something not worth wasting it on. ” 
+
+
+
+
+
+
+
+
+*Write a function to represent a Triangle, given input is the number of rows of the triangle
+Example if the number of rows is 3
+Result:
+1
+2 3
+4 5 6
