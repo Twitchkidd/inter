@@ -22,4 +22,8 @@ To the future!
 
 ### Print even numbers in a range
 
-Ready set go!
+Ready set go! -- Okay, 12 minutes! And a minute faffing about! Lol next, go!
+
+### Print a multiplication table
+
+1:11, go! -- Okay, 22 minutes, somehow? And I really want to calculate the maximum width with a reverse sort and switch the answers to strings and come up with some rules for spaces, but it didn't ask for that, maybe next time.
