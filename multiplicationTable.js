@@ -3,10 +3,6 @@
 const exampleNum = 10;
 
 const printTable = num => {
-	// so you'll want a table header
-	// then the row of 1-10 after a space (oo or an X!)
-	// then each row after will have it's 1-10 label
-	// and then the 10 products
 	const header = `
   Multiplication Table For 1-${num}:
   
