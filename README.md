@@ -11,3 +11,5 @@ Eugh, sort is `a,b => a - /\* MINUS \*/ b not a,b => a < /\* LESS THAN \*/ b`. I
 ### secondNum
 
 Okay, 15 minutes is better, still need to go faster. Use new Set(array) and \[...set\] to get back to an array.
+
+### triangle
