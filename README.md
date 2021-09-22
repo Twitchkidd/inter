@@ -30,4 +30,4 @@ Ready set go! -- Okay, 12 minutes! And a minute faffing about! Lol next, go!
 
 ### Kilometers to miles
 
-1:33 to ...
+1:33 to ... 1:56! Okay, well, those three did take me just about an hour! Next time faster, next time more, and I think debriefing the previous set might be the very next thing!
