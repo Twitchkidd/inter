@@ -18,7 +18,7 @@ Okay, that took a while again, and I resorted to imperative programming. Maybe 3
 
 ## Second Problem Set
 
-To the future!
+To the future! [More coding problems!](https://www.codecademy.com/resources/blog/10-javascript-code-challenges-for-beginners/)
 
 ### Print even numbers in a range
 
@@ -34,4 +34,13 @@ Ready set go! -- Okay, 12 minutes! And a minute faffing about! Lol next, go!
 
 ## Third Problem Set
 
-Here we go!
+Here we go! Except before we start, we're going to get these and then where's the timer? Okay, pomr, thirty minutes in total,
+shoot for ten minutes for each? 10:54, go! Switch over at 11:04 and 11:14, and be done by 11:24!!!
+
+### Sum of numbers in an array
+
+Please don't take ten minutes for this! Lord, you took longer, lol, it's 11:10, 14 minutes!
+
+### The next two
+
+Okay, those weren't really compelling challenges, it's 11:18, let's make a snippet for answering these sort of questions!
