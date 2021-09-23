@@ -44,3 +44,9 @@ Please don't take ten minutes for this! Lord, you took longer, lol, it's 11:10, 
 ### The next two
 
 Okay, those weren't really compelling challenges, it's 11:18, let's make a snippet for answering these sort of questions!
+
+## Fourth Problem Set
+
+Let's try for four in a half an hour! Go! 12:48, now 12:50, lol. -- Checking in, going to learn some regex, we're at 1:00, reminder the finish time is 1:18!
+
+-- Mmm, 1:20! `pomr` needs to be able to get my attention somehow!
