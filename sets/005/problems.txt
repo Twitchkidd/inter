@@ -1,0 +1,7 @@
+28: Write a JavaScript code to Calculate the sum of first 100 prime numbers.
+
+29: Print the distance between the first 100 prime numbers in JavaScript.
+
+30: Use JavaScript to create a function that will add two positive numbers
+of indefinite size. And the numbers are received as strings and the result
+should be also provided as string.
