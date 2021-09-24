@@ -1,0 +1,9 @@
+32: Make a function that will capitalize the first letter of each word in a
+text using JavaScript.
+
+44: Build a JavaScript function that will convert a string containing a binary
+number into a number.
+
+51: Write JavaScript code to find the frequency of characters inside a string.
+Return the result as an array of objects. Each object has 2 fields: character
+and number of occurrences.

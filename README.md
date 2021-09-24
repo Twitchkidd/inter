@@ -56,3 +56,7 @@ Let's try for four in a half an hour! Go! 12:48, now 12:50, lol. -- Checking in,
 Today should be good! 10:15, 10:25, 10:35!
 
 -- Uhh, okay, 10:46, but solid work!
+
+## Sixth Problem Set
+
+Oh no! I'm beyond tired! Interesting stuff with regexes though, and why handling multiline text that could come from either operating system is hard, and maybe a little beyond the scope of something I could finish in 10 minutes, so I'm like actually tired though, so we're going to have to tackle the problem of handling cross-platform tabs and newlines and putting them back again at the end of the day when we wake up early tomorrow, is the theory. Ow, my back, lol.
