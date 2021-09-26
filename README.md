@@ -60,3 +60,7 @@ Today should be good! 10:15, 10:25, 10:35!
 ## Sixth Problem Set
 
 Oh no! I'm beyond tired! Interesting stuff with regexes though, and why handling multiline text that could come from either operating system is hard, and maybe a little beyond the scope of something I could finish in 10 minutes, so I'm like actually tired though, so we're going to have to tackle the problem of handling cross-platform tabs and newlines and putting them back again at the end of the day when we wake up early tomorrow, is the theory. Ow, my back, lol.
+
+### Take two!
+
+Good morning! Let's try again! 9:38! Oof okay, 10:23 just for the first one, that's forty-five minutes bro! How about the other two, maybe now that you're on a roll here! Oof, okay, 11:07 for the next one, say you took two minutes off and started from 25, that's 35, 7, 42 minutes. Okay, 11:34, say you took two minutes off, twenty-five minutes, that's better, major brain freeze at the end though. Okay, so it's been like two hours. Push and move on with the day :)
