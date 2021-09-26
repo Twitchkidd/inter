@@ -1,20 +1,13 @@
-// * Coding challenge code - good luck!
+// * 32: Make a function that will capitalize the first letter of each word in a text using JavaScript.
 
-const exampleString = `32: Make a function that will      capitalize
+const exampleString = `Men, today we die a little!
+~ Emil Zatopek`;
 
-the first letter of each word in a \r\n\ntext using JavaScript.`;
-// 32: Make A Function That Will      Capitalize
-//
-// The First Letter Of Each Word In A \r\n\nText Using JavaScript.
+// Good morning!
 
-// regex for targeting each type of newline, or their combinations,
-// globally and multiline, and generating indicies for substring matches
-const newlineRegex = /\r/dgm;
-// regex for tageting tabs,
-// globally and multiline, and generating indicies for substring matches
-const tabRegex = /\t/dgm;
-
-const capitalizeWords = string => newlineRegex.exec(string).indices;
+const capitalizeWords = string => {
+	return string;
+};
 // .map(word => [word[0].toUpperCase(), [...word].slice(1)])
 // .join(' ');
 
