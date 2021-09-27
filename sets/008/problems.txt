@@ -1,0 +1,9 @@
+1. Write a function that accepts an array of strings. Return the longest string.
+
+Do we need to consider if there are no strings in the array?
+
+    For this challenge, no
+
+Do we need to consider times when all of the strings are the same length?
+
+    Yes. Return the first string.
