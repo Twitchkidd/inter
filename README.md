@@ -64,3 +64,7 @@ Oh no! I'm beyond tired! Interesting stuff with regexes though, and why handling
 ### Take two!
 
 Good morning! Let's try again! 9:38! Oof okay, 10:23 just for the first one, that's forty-five minutes bro! How about the other two, maybe now that you're on a roll here! Oof, okay, 11:07 for the next one, say you took two minutes off and started from 25, that's 35, 7, 42 minutes. Okay, 11:34, say you took two minutes off, twenty-five minutes, that's better, major brain freeze at the end though. Okay, so it's been like two hours. Push and move on with the day :)
+
+## Seventh Problem Set
+
+7:19 7:20 7:35 7:50 8:05(8:04)

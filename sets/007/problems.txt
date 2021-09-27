@@ -1,0 +1,10 @@
+38: Create a function that will convert an array containing ASCII codes in a
+string using JavaScript.
+
+
+47: Deep copy a jagged array with numbers or other arrays in a new array using
+JavaScript.
+
+
+52: Use JavaScript code to calculate Fibonacci(500) with high precision (all
+decimals).
