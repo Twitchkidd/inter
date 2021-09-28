@@ -1,7 +1,7 @@
 // * Generates the cubes of integers greater than 0 until the next is 0 modulo
 // * the provided modulus.
 
-const modulus = 25;
+const exampleModulus = 25;
 
 const generateCubesUntil = modulus => {
 	let array = [];
@@ -15,7 +15,7 @@ const init = () => {
 	console.log(`
   Welcome to the generate cubes until the cube modulo modulus is zero program!
   `);
-	console.log(generateCubesUntil(modulus));
+	console.log(generateCubesUntil(exampleModulus));
 	console.log(`
   Thanks for using the generate cubes until the cube modulo modulus is zero program!
   `);
