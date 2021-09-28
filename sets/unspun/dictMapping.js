@@ -3,10 +3,6 @@
 
 const dictMapping = () => {
 	const nums = [...Array(99).keys()].map(n => n + 2);
-	// const xRoot = n => {
-	// 	return Math.pow(n, 1 / 2.75);
-	// };
-	// const roots = xRoot.apply(null, [...nums]);
 	const roots = nums.map(n => Math.pow(n, 1 / 2.75));
 	let obj = {};
 	for (let i = 0; i < nums.length; i++) {
