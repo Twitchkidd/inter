@@ -3,6 +3,12 @@
 
 const assert = require('assert').strict;
 
+/*
+ * nodejs assert
+ * assert(value[, message])
+ * assert.deepEqual(actual, expected[, message])
+ */
+
 const arr1 = [10, 5, 7, 2, 4, 1, 24];
 const arr2 = [8, 23, 29, 25, 40, 0, 24];
 
