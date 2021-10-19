@@ -12,6 +12,8 @@ removed. Think about if you were tasked with cleaning up customer data at your
 job. You could scale this function to clean up specific fields of data, such
 as zip codes.`;
 
+// oh, actually, the repetition operator means this is a regex for any set of one or more
+// spaces, newlines, tabs, and other space-like characters
 // regex for either spaces, newlines, and tabs and other space-like characters
 const regex = /\s+/gm;
 
