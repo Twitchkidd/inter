@@ -6,6 +6,7 @@ const arrayOfCodes = [70, 69, 69, 69, 32, 67, 66, 68, 69, 32, 67, 65, 77, 67];
 const stringifyASCIIArray = array => {
 	const chars = array.map(code => String.fromCharCode(code));
 	return chars.join('');
+	// solution: return String.fromCharCode(...array) !!!
 };
 
 const init = () => {
