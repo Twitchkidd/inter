@@ -117,7 +117,7 @@ for (let i = 0; i < y; i++) {
 console.timeEnd(`MANY OF MIN MANY ${y}, DIV ${divs}`);
 
 const qs = quotients;
-const range = n => [...Array(n).keys()].map(x => x + 1);
+const range = n => [...Array(n).keys()].map(x => ++x);
 
 const mn = (n, ds) =>
 	range(n).reduce(
@@ -140,3 +140,8 @@ console.time(`MN ${y}, DIV ${divs}`);
 console.log('\x1b[35m%s\x1b[0m', `Calculating mn(${y}, divisors: ${divs}) ...`);
 console.log('\x1b[36m%s\x1b[0m', `Steps: ${mn(y, divs)}`);
 console.timeEnd(`MN ${y}, DIV ${divs}`);
+
+console.time(`MN ${z}, DIV ${divs}`);
+console.log('\x1b[35m%s\x1b[0m', `Calculating mn(${z}, divisors: ${divs}) ...`);
+console.log('\x1b[36m%s\x1b[0m', `Steps: ${mn(z, divs)}`);
+console.timeEnd(`MN ${z}, DIV ${divs}`);
