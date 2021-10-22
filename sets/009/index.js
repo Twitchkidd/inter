@@ -1,3 +1,5 @@
+// https://replit.com/@vokoshyv/ShoddyNiftyLibrary#index.js
+
 /*
 
 1. Understand 
