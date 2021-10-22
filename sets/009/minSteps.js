@@ -83,7 +83,7 @@ console.log(
 console.log('\x1b[36m%s\x1b[0m', `Steps: ${minTab(z, divs)}`);
 console.timeEnd(`MIN TAB ${z}, DIV ${divs}`);
 
-let manyTab = new Array(z);
+let manyTab = new Array(y);
 const minMany = (n, ds) => {
 	if (manyTab[n] !== undefined) {
 		return manyTab[n];
@@ -95,3 +95,48 @@ const minMany = (n, ds) => {
 	}
 	return manyTab[n];
 };
+
+console.time(`MANY OF MIN TAB ${y}, DIV ${divs}`);
+console.log(
+	'\x1b[35m%s\x1b[0m',
+	`Calculating minTab(${y}, divisors: ${divs}) ...`
+);
+for (let i = 0; i < y; i++) {
+	minTab(y, divs);
+}
+console.timeEnd(`MANY OF MIN TAB ${y}, DIV ${divs}`);
+
+console.time(`MANY OF MIN MANY ${y}, DIV ${divs}`);
+console.log(
+	'\x1b[35m%s\x1b[0m',
+	`Calculating minMany${y}, divisors: ${divs}) ...`
+);
+for (let i = 0; i < y; i++) {
+	minMany(y, divs);
+}
+console.timeEnd(`MANY OF MIN MANY ${y}, DIV ${divs}`);
+
+const qs = quotients;
+const range = n => [...Array(n).keys()].map(x => x + 1);
+
+const mn = (n, ds) =>
+	range(n).reduce(
+		(acc, cur) =>
+			cur === 1
+				? acc
+				: [
+						...acc,
+						Math.min(acc[cur - 2], ...qs(cur, ds).map(q => acc[q - 1])) + 1,
+				  ],
+		[0]
+	)[n - 1];
+
+console.time(`MN ${x}, DIV ${divs}`);
+console.log('\x1b[35m%s\x1b[0m', `Calculating mn(${x}, divisors: ${divs}) ...`);
+console.log('\x1b[36m%s\x1b[0m', `Steps: ${mn(x, divs)}`);
+console.timeEnd(`MN ${x}, DIV ${divs}`);
+
+console.time(`MN ${y}, DIV ${divs}`);
+console.log('\x1b[35m%s\x1b[0m', `Calculating mn(${y}, divisors: ${divs}) ...`);
+console.log('\x1b[36m%s\x1b[0m', `Steps: ${mn(y, divs)}`);
+console.timeEnd(`MN ${y}, DIV ${divs}`);
