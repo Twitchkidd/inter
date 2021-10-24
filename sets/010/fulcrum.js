@@ -1,6 +1,8 @@
-// From an array of numbers, find the first index where the sum of the numbers before equals the sum of the numbers ahead, and return the index or return -1;
+// * From an array of numbers, find the first index where the sum of the
+// * numbers before equals the sum of the numbers ahead, and return the
+// * index or return -1;
 
-// const array10 = [8, 4, 6, 2, 8, 4, 2, 4, 8, 2];
+const array10 = [8, 4, 6, 2, 8, 4, 2, 4, 8, 2];
 
 // const range50 = range(50);
 // const array101 = [...range50, 51, ...range50.reverse()];
@@ -55,25 +57,70 @@ const firstFulcrum = arr => {
 	return -1;
 };
 
+const firstFulcrumRecursive = arr => {
+	const sum = a => a.reduce((a, c) => a + c, 0);
+	console.log(arr, ' sum: ', sum(arr));
+	if (arr === undefined || arr.length === 0) {
+		return -1;
+	}
+	if (arr.length === 1) {
+		return 1;
+	}
+	let res = -1;
+	const traverse = (before, after, index) => {
+		console.log(
+			'Traverse! i=',
+			index,
+			' before=',
+			before,
+			' after=',
+			after,
+			'\n'
+		);
+		if (before === after) {
+			result = index;
+			return;
+		}
+		if (index === arr.length - 1) {
+			before += arr[index];
+			if (before === 0) {
+				result = index;
+			}
+			return;
+		}
+		before += arr[index];
+		after -= arr[index + 1];
+		traverse(before, after, index + 1);
+	};
+	traverse(0, sum(arr.slice(1)), 0);
+	return result;
+};
+
 const init = () => {
 	console.log(`
   Welcome to the first fulcrum point checker program!
   `);
-	console.time(`firstFulcrum - ${tenK}`);
-	console.log(firstFulcrum(testArray(tenK)));
-	console.timeEnd(`firstFulcrum - ${tenK}`);
-	console.time(`firstFulcrum - ${hundredK}`);
-	console.log(firstFulcrum(testArray(hundredK)));
-	console.timeEnd(`firstFulcrum - ${hundredK}`);
-	console.time(`firstFulcrum - ${million}`);
-	console.log(firstFulcrum(testArray(million)));
-	console.timeEnd(`firstFulcrum - ${million}`);
-	console.time(`firstFulcrum - ${tenM}`);
-	console.log(firstFulcrum(testArray(tenM)));
-	console.timeEnd(`firstFulcrum - ${tenM}`);
-	// console.time(`firstFulcrum - 10`);
-	// console.log(firstFulcrum(array10));
-	// console.timeEnd(`firstFulcrum - 10`);
+	console.time(`firstFulcrumRecursive - 10`);
+	console.log(firstFulcrumRecursive(array10));
+	console.timeEnd(`firstFulcrumRecursive - 10`);
+	// console.time(`firstFulcrumRecursive - ${tenK}`);
+	// console.log(firstFulcrumRecursive(testArray(tenK)));
+	// console.timeEnd(`firstFulcrumRecursive - ${tenK}`);
+	// console.time(`firstFulcrum - ${tenK}`);
+	// console.log(firstFulcrum(testArray(tenK)));
+	// console.timeEnd(`firstFulcrum - ${tenK}`);
+	// console.time(`firstFulcrum - ${hundredK}`);
+	// console.log(firstFulcrum(testArray(hundredK)));
+	// console.timeEnd(`firstFulcrum - ${hundredK}`);
+	// console.time(`firstFulcrum - ${million}`);
+	// console.log(firstFulcrum(testArray(million)));
+	// console.timeEnd(`firstFulcrum - ${million}`);Z
+	// console.time(`firstFulcrum - ${tenM}`);
+	// console.log(firstFulcrum(testArray(tenM)));
+	// console.timeEnd(`firstFulcrum - ${tenM}`);
+	console.time(`firstFulcrum - 10`);
+	console.log(firstFulcrum(array10));
+	console.timeEnd(`firstFulcrum - 10`);
 	// console.time(`firstFulcrum - 101`);
 	// console.log(firstFulcrum(array101));
 	// console.timeEnd(`firstFulcrum - 101`);
